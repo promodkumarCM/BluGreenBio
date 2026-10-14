@@ -1,0 +1,27 @@
+{
+  "name": "blugreen-bio-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-hook-form": "^7.90.0",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4"
+  }
+}
